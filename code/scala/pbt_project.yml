@@ -2,6 +2,21 @@ name: leonel.schuster
 description: User fork
 version: 1
 author: shanika.orn@gmail.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: shanika.orn@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-06 14:39:10'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Autumn_Gleichner:
+    name: Autumn_Gleichner
+    description: Really solid info
+    createdAt: '2022-01-06 14:39:10'
+    author: shanika.orn@gmail.com
